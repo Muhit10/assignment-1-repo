@@ -1,0 +1,42 @@
+.front-massage {
+    text-align: center;
+    padding: 8%;
+}
+
+body {
+    margin: 0;
+}
+
+.bg-image {
+    background-image: url(images/donation1.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: 100% 100%;
+
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+div p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+}
+
+p {
+    color: white;
+}
+
+.donate-button {
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+
+    padding: 12px 19px;
+    background-color: tomato;
+}
