@@ -1,6 +1,6 @@
 .front-massage {
     text-align: center;
-    padding: 8%;
+    padding: 5%;
 }
 
 body {
@@ -8,11 +8,11 @@ body {
 }
 
 .bg-image {
-    background-image: url(images/donation1.jpg);
+    background: url(images/donation1.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    margin: 0;
+    margin-bottom: 10%;
     background-size: 100% 100%;
 
 }
@@ -21,6 +21,7 @@ h1 {
     font-size: 50px;
     color: white;
     font-family: 'Poppins', sans-serif;
+    margin: 2px;
 }
 
 div p {
@@ -33,10 +34,36 @@ p {
 }
 
 .donate-button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-
     padding: 12px 19px;
-    background-color: tomato;
+    background-color: rgb(255, 83, 71);
+}
+
+.link-button {
+    margin: 4%;
+}
+
+.donate-part {
+    color: black;
+    text-align: center;
+    margin: 2px;
+}
+
+.donate-amount {
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.donate-box {
+    background-color: rgba(245, 245, 245, 0.852);
+    padding: 2% 2%;
+    margin: 4px 4px;
+    font-family: 'Poppins', sans-serif;
 }
