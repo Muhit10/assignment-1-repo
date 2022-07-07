@@ -9,12 +9,21 @@ body {
 
 .bg-image {
     background: url(images/donation1.jpg);
+    filter: blur(4px);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     margin-bottom: 8%;
-    background-size: 100% 120%;
+    background-size: cover;
+    padding-bottom: 615px;
 
+}
+
+.front-font {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 12%;
 }
 
 h1 {
